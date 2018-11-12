@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https:#github.com/facebook
 
 #### 
 
-React 16 + react-router4 + redux + sass + eslint-config-alloy + webpack 4
+React 16 + react-router4 + sass + eslint-config-alloy + webpack 4
 
 运行
 
