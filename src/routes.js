@@ -10,24 +10,15 @@ import { Example, Example2 } from './containers';
 const Routes = ({ match }) => {
   return (
     <div className="router-con">
-      {
-        match && match.url ? (
-          <div className="routers">
-            <Switch>
-              <Route exact path="/" component={Example} />
-              <Route exact path="/Example" component={Example} />
-              <Route exact path="/Example2" component={Example2} />
-            </Switch>
-          </div>) : (
-            <div className="routers">
-              <Switch>
-                <Route exact path={`/`} component={Example} />
-                <Route exact path={`/Example`} component={Example} />
-                <Route exact path="/Example2" component={Example2} />
-              </Switch>
-            </div>
-          )
-      }
+        <div className="routers">
+          <Switch>
+            <Route exact path={`/key1.html`} component={Example} />
+            <Route exact path={`/key2.html`} component={Example} />
+            <Route exact path={`/`} component={Example} />
+            <Route exact path={`/Example`} component={Example} />
+            <Route exact path="/Example2" component={Example2} />
+          </Switch>
+        </div>
     </div>
   );
 };

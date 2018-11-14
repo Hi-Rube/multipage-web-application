@@ -87,7 +87,8 @@ const generatedHTML = (() => {
         inject: true,            // 跟原有数组的配置保持一致
         template: paths.appHtml, // 这里用的是同一个模板，可以让不同html使用不同模板
         chunks: [app],           // 必要，指明注入的 script 对应的是哪个 entry
-        filename: app + '.html', // 必要，重命名 html
+        // filename: app + '.html', // 必要，重命名 html
+        filename: `${app}.html`,
       })
     )
   });
