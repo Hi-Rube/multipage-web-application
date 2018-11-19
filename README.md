@@ -44,3 +44,7 @@ my-app
     ├──routes.js           # 虚拟路由
     └── serviceWorker.js
 ```
+
+访问地址
+
+http://localhost:3001/key1.html
